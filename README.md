@@ -1,24 +1,24 @@
-# technical-interview
+# Technical-interview
+Web面试题
 
+## Frontend
+web前端面试题
 
-## web　frontend
-
-
-### html
-### html有哪些常用标签（tag）?
-基本框架元素有：html head title body
+### HTML
+>#### html有哪些常用标签（tag）?
+基本框架元素有：html head title body  
 行内元素有：a b span img input select strong  
 块级元素有：div ul ol li dl dt dd h1 h2 h3 h4…p  
 常见的空元素：br img input link meta  
-### html5文件与html4文件的区别？
+>#### html5文件与html4文件的区别？
 !DOCTYPE HTML  
-### 浏览器有哪些的本地存贮技术
+>#### 浏览器有哪些的本地存贮技术
 Cookies  
 LocalStorage  
 SessionStorage  
 WebDB  
 IndexedDB  
-### 常见的浏览器内核有哪些？
+>#### 常见的浏览器内核有哪些？
 Webkit内核：Safari,Chrome等。  
 Trident内核：IE,MaxThon,TT,The World,360,搜狗浏览器等。  
 Gecko内核：Netscape6及以上版本，FF,MozillaSuite/SeaMonkey等  
@@ -26,10 +26,10 @@ Presto内核：Opera7及以上。
 
 
 ### CSS 
-### 介绍一下标准的CSS的盒子模型？
+>#### 介绍一下标准的CSS的盒子模型？
 盒模型：内容(content)、填充(padding)、边界(margin)、 边框(border)；  
 
-### CSS选择符有哪些？
+>#### CSS选择符有哪些？
 ```
 1.id选择器（ # myid）
 2.类选择器（.myclassname）
@@ -41,22 +41,22 @@ Presto内核：Opera7及以上。
 8.属性选择器（a[rel = "external"]）
 9.伪类选择器（a: hover, li:nth-child）
 ```
-### CSS选择符优先顺序？
+>#### CSS选择符优先顺序？
 !important > id > class > tag  
 important 比 内联优先级高,但内联比 id 要高
 
 
-### javascript
-### js的闭包拥有哪些特性？
+### Javascript
+>#### js的闭包拥有哪些特性？
 闭包是指有权访问另一个函数作用域中的变量的函数，创建闭包的最常见的方式就是在一个函数内创建另一个函数，通过另一个函数访问这个函数的局部变量。使用闭包有一个优点，也是它的缺点，就是可以把局部变量驻留在内存中，可以避免使用全局变量。  
 1.函数嵌套函数  
 2.函数内部可以引用外部的参数和变量  
 3.参数和变量不会被垃圾回收机制回收  
 
-### eval是做什么的？
+>#### eval是做什么的？
 由JSON字符串转换为JSON对象的时候可以用eval，var obj =eval('('+ str +')')  
 
-### Ajax是什么? 如何创建一个Ajax？
+>#### Ajax是什么? 如何创建一个Ajax？
  ajax的全称：Asynchronous Javascript And XML。异步传输+js+xml  
  所谓异步，在这里简单地解释就是：向服务器发送请求的时候，我们不必等待结果，而是可以同时做其他的事情，等到有了结果它自己会根据设定进行后续操作，与此同时，页面是不会发生整页刷新的，提高了用户体验。  
  (1)创建XMLHttpRequest对象,也就是创建一个异步调用对象  
@@ -68,14 +68,14 @@ important 比 内联优先级高,但内联比 id 要高
 
 
 ### 框架
-### 前端框架有哪些？
-AngularJS
-Vue.js
-React.native
+>#### 前端框架有哪些？
+AngularJS  
+Vue.js  
+React.native  
 
 ### 其他问题
-### http状态码有那些？分别代表是什么意思？
-100  Continue 继续，一般在发送post请求时，已发送了http header之后服务端将返回此信息，表示确认，之后发送具体参数信息  
+>#### http状态码有那些？分别代表是什么意思？
+100  Continue 一般在发送post请求时，已发送了http header之后服务端将返回此信息，表示确认，之后发送具体参数信息  
 200  OK 正常返回信息  
 201  Created  	请求成功并且服务器创建了新的资源  
 202  Accepted 	服务器已接受请求，但尚未处理  
@@ -90,7 +90,31 @@ React.native
 500 Internal Server Error  最常见的服务器端错误  
 503 Service Unavailable 服务器端暂时无法处理请求（可能是过载或维护）  
 
-# web　backend
+## Backend
+web后端/服务器端面试题
+
+### Java基本功
+>#### 面向对象的特征
+
+>#### final, finally, finalize 的区别
+
+>#### int 和 Integer 有什么区别
+
+>#### 重载和重写的区别
+
+>#### 抽象类和接口有什么区别
+
+>#### 说说反射的用途及实现
+
+>#### HTTP 请求的 GET 与 POST 方式的区别
+
+>#### session 与 cookie 区别
+
+>#### JDBC 流程
+
+>#### MVC 设计思想
+
+>#### equals 与 == 的区别
 
 
 
