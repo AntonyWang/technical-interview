@@ -1,32 +1,31 @@
 # technical-interview
 
 
-# web　frontend
+## web　frontend
 
-## html
+
+### html
 ### html有哪些常用标签（tag）?
 基本框架元素有：html head title body
 行内元素有：a b span img input select strong  
 块级元素有：div ul ol li dl dt dd h1 h2 h3 h4…p  
-常见的空元素：<br> <hr> <img> <input> <link> <meta>  
-
+常见的空元素：br img input link meta  
 ### html5文件与html4文件的区别？
-<!DOCTYPE HTML>
-
+!DOCTYPE HTML  
 ### 浏览器有哪些的本地存贮技术
 Cookies  
 LocalStorage  
 SessionStorage  
 WebDB  
 IndexedDB  
-
 ### 常见的浏览器内核有哪些？
 Webkit内核：Safari,Chrome等。  
 Trident内核：IE,MaxThon,TT,The World,360,搜狗浏览器等。  
 Gecko内核：Netscape6及以上版本，FF,MozillaSuite/SeaMonkey等  
 Presto内核：Opera7及以上。  
 
-## CSS 
+
+### CSS 
 ### 介绍一下标准的CSS的盒子模型？
 盒模型：内容(content)、填充(padding)、边界(margin)、 边框(border)；  
 
@@ -42,12 +41,12 @@ Presto内核：Opera7及以上。
 8.属性选择器（a[rel = "external"]）
 9.伪类选择器（a: hover, li:nth-child）
 ```
-#### CSS选择符优先顺序？
+### CSS选择符优先顺序？
 !important > id > class > tag  
 important 比 内联优先级高,但内联比 id 要高
 
 
-## javascript
+### javascript
 ### js的闭包拥有哪些特性？
 闭包是指有权访问另一个函数作用域中的变量的函数，创建闭包的最常见的方式就是在一个函数内创建另一个函数，通过另一个函数访问这个函数的局部变量。使用闭包有一个优点，也是它的缺点，就是可以把局部变量驻留在内存中，可以避免使用全局变量。  
 1.函数嵌套函数  
@@ -59,7 +58,7 @@ important 比 内联优先级高,但内联比 id 要高
 
 ### Ajax是什么? 如何创建一个Ajax？
  ajax的全称：Asynchronous Javascript And XML。异步传输+js+xml  
- 所谓异步，在这里简单地解释就是：向服务器发送请求的时候，我们不必等待结果，而是可以同时做其他的事情，等到有了结果它自己会根据设定进行后续操作，与此同时，页面是不会发生整页刷新的，提高了用户体验。
+ 所谓异步，在这里简单地解释就是：向服务器发送请求的时候，我们不必等待结果，而是可以同时做其他的事情，等到有了结果它自己会根据设定进行后续操作，与此同时，页面是不会发生整页刷新的，提高了用户体验。  
  (1)创建XMLHttpRequest对象,也就是创建一个异步调用对象  
  (2)创建一个新的HTTP请求,并指定该HTTP请求的方法、URL及验证信息  
  (3)设置响应HTTP请求状态变化的函数  
@@ -67,13 +66,14 @@ important 比 内联优先级高,但内联比 id 要高
  (5)获取异步调用返回的数据  
  (6)使用JavaScript和DOM实现局部刷新  
 
-## 框架
+
+### 框架
 ### 前端框架有哪些？
 AngularJS
 Vue.js
 React.native
 
-## 其他问题
+### 其他问题
 ### http状态码有那些？分别代表是什么意思？
 100  Continue 继续，一般在发送post请求时，已发送了http header之后服务端将返回此信息，表示确认，之后发送具体参数信息  
 200  OK 正常返回信息  
