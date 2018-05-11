@@ -6,20 +6,20 @@ web前端面试题
 
 ### HTML
 >#### html有哪些常用标签（tag）?
-- 基本框架元素有：html head title body  
-- 行内元素有：a b span img input select strong  
-- 块级元素有：div ul ol li dl dt dd h1 h2 h3 h4…p  
-- 常见的空元素：br img input link meta  
+	基本框架元素有：html head title body  
+	行内元素有：a b span img input select strong  
+	块级元素有：div ul ol li dl dt dd h1 h2 h3 h4…p  
+	常见的空元素：br img input link meta  
 
 >#### html5文件与html4文件的区别？
 - !DOCTYPE HTML  
 
 >#### 浏览器有哪些的本地存贮技术
-- Cookies  
-- LocalStorage  
-- SessionStorage  
-- WebDB  
-- IndexedDB  
+	Cookies  
+	LocalStorage  
+	SessionStorage  
+	WebDB  
+	IndexedDB  
 
 >#### 常见的浏览器内核有哪些？
 - Webkit内核：Safari,Chrome等。  
@@ -55,7 +55,7 @@ important 比 内联优先级高,但内联比 id 要高
 3.参数和变量不会被垃圾回收机制回收  
 
 >#### eval是做什么的？
-由JSON字符串转换为JSON对象的时候可以用eval，var obj =eval('('+ str +')')  
+- 由JSON字符串转换为JSON对象的时候可以用eval，var obj =eval('('+ str +')')  
 
 >#### Ajax是什么? 如何创建一个Ajax？
 - ajax的全称：Asynchronous Javascript And XML。异步传输+js+xml  
