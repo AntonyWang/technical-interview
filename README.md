@@ -5,27 +5,27 @@ Web面试题
 web前端面试题
 
 ### HTML
->#### html有哪些常用标签（tag）?
+#### html有哪些常用标签（tag）?
 	基本框架元素有：html head title body  
 	行内元素有：a b span img input select strong  
 	块级元素有：div ul ol li dl dt dd h1 h2 h3 h4…p  
 	常见的空元素：br img input link meta  
 
->#### html5文件与html4文件的区别？
+#### html5文件与html4文件的区别？
 - !DOCTYPE HTML  
 
->#### 浏览器有哪些的本地存贮技术
+#### 浏览器有哪些的本地存贮技术
 	Cookies  
 	LocalStorage  
 	SessionStorage  
 	WebDB  
 	IndexedDB  
 
->#### 常见的浏览器内核有哪些？
-- Webkit内核：Safari,Chrome等。  
-- Trident内核：IE,MaxThon,TT,The World,360,搜狗浏览器等。  
-- Gecko内核：Netscape6及以上版本，FF,MozillaSuite/SeaMonkey等  
-- Presto内核：Opera7及以上。
+#### 常见的浏览器内核有哪些？
+	Webkit内核：Safari,Chrome等。  
+	Trident内核：IE,MaxThon,TT,The World,360,搜狗浏览器等。  
+	Gecko内核：Netscape6及以上版本，FF,MozillaSuite/SeaMonkey等  
+	Presto内核：Opera7及以上。
 
 ### CSS 
 >#### 介绍一下标准的CSS的盒子模型？
