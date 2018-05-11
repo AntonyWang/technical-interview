@@ -156,7 +156,7 @@ cookie为多个用户浏览器共享
 
 ### Database
 >#### 模糊查询SQL？
-	select * from table where name like "% %";
+	select * from table where name like "%wyp%";
 >#### 分组查询SQL？
 	select department,max(age) from table orderby department;
 >#### 数据库锁的理解及利弊？
