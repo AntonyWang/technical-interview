@@ -28,25 +28,21 @@ web前端面试题
 	Presto内核：Opera7及以上。
 
 ### CSS 
->#### 介绍一下标准的CSS的盒子模型？
-- 盒模型：内容(content)、填充(padding)、边界(margin)、 边框(border)；  
->#### CSS选择符有哪些？
-```
-1.id选择器（ # myid）
-2.类选择器（.myclassname）
-3.标签选择器（div, h1, p）
-4.相邻选择器（h1 + p）
-5.子选择器（ul > li）
-6.后代选择器（li a）
-7.通配符选择器（ * ）
-8.属性选择器（a[rel = "external"]）
-9.伪类选择器（a: hover, li:nth-child）
-```
->#### CSS选择符优先顺序？
-- !important > id > class > tag  
-important 比 内联优先级高,但内联比 id 要高
-
-
+#### 介绍一下标准的CSS的盒子模型？
+	盒模型：内容(content)、填充(padding)、边界(margin)、 边框(border)；  
+#### CSS选择符有哪些？
+	1.id选择器（ # myid）
+	2.类选择器（.myclassname）
+	3.标签选择器（div, h1, p）
+	4.相邻选择器（h1 + p）
+	5.子选择器（ul > li）
+	6.后代选择器（li a）
+	7.通配符选择器（ * ）
+	8.属性选择器（a[rel = "external"]）
+	9.伪类选择器（a: hover, li:nth-child）
+#### CSS选择符优先顺序？
+	!important > id > class > tag  
+	important 比 内联优先级高,但内联比 id 要高
 ### Javascript
 >#### js的闭包拥有哪些特性？
 - 闭包是指有权访问另一个函数作用域中的变量的函数，创建闭包的最常见的方式就是在一个函数内创建另一个函数，通过另一个函数访问这个函数的局部变量。使用闭包有一个优点，也是它的缺点，就是可以把局部变量驻留在内存中，可以避免使用全局变量。  
