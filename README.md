@@ -159,11 +159,11 @@ cookie为多个用户浏览器共享
 
 >#### 两个文件，如何打印出重复的部分(只能Java实现，不可使用第三方工具)；
 
-### DB
+### Database
 >#### 写模糊查询SQL；
-select * from table where name like "% %";
+	select * from table where name like "% %";
 >#### 写分组查询SQL；
-select department,max(age) from table orderby department;
+	select department,max(age) from table orderby department;
 >#### 数据库锁的理解及利弊；
 
 >#### JDBC 流程
