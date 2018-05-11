@@ -5,32 +5,32 @@ Web面试题
 web前端面试题
 
 ### HTML
-#### html有哪些常用标签（tag）?
+>#### html有哪些常用标签（tag）?
 	基本框架元素有：html head title body  
 	行内元素有：a b span img input select strong  
 	块级元素有：div ul ol li dl dt dd h1 h2 h3 h4…p  
 	常见的空元素：br img input link meta  
 
-#### html5文件与html4文件的区别？
-- !DOCTYPE HTML  
+>#### html5文件与html4文件的区别？
+	!DOCTYPE HTML  
 
-#### 浏览器有哪些的本地存贮技术
+>#### 浏览器有哪些的本地存贮技术
 	Cookies  
 	LocalStorage  
 	SessionStorage  
 	WebDB  
 	IndexedDB  
 
-#### 常见的浏览器内核有哪些？
+>#### 常见的浏览器内核有哪些？
 	Webkit内核：Safari,Chrome等。  
 	Trident内核：IE,MaxThon,TT,The World,360,搜狗浏览器等。  
 	Gecko内核：Netscape6及以上版本，FF,MozillaSuite/SeaMonkey等  
 	Presto内核：Opera7及以上。
 
 ### CSS 
-#### 介绍一下标准的CSS的盒子模型？
+>#### 介绍一下标准的CSS的盒子模型？
 	盒模型：内容(content)、填充(padding)、边界(margin)、 边框(border)；  
-#### CSS选择符有哪些？
+>#### CSS选择符有哪些？
 	1.id选择器（ # myid）
 	2.类选择器（.myclassname）
 	3.标签选择器（div, h1, p）
@@ -40,7 +40,7 @@ web前端面试题
 	7.通配符选择器（ * ）
 	8.属性选择器（a[rel = "external"]）
 	9.伪类选择器（a: hover, li:nth-child）
-#### CSS选择符优先顺序？
+>#### CSS选择符优先顺序？
 	!important > id > class > tag  
 	important 比 内联优先级高,但内联比 id 要高
 ### Javascript
